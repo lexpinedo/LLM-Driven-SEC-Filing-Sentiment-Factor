@@ -5,12 +5,12 @@
 Built and evaluated an NLP-based equity sentiment signal using FinBERT vs. VADER, testing whether a financial-domain language model improves predictive power of corporate disclosure sentiment using 10-K filings and 21-day forward returns.
 
 ## Theoretical foundation
-Financial text sentiment theory
+### Financial text sentiment theory
 
 Corporate filings contain forward-looking qualitative information about firm performance, risk, and management outlook.
 NLP sentiment models can convert this narrative text into quantitative signals that may predict future equity returns.
 
-Domain-specific language models
+### Domain-specific language models
 
 Traditional sentiment models rely on generic lexicons, which often misclassify financial terminology.
 FinBERT, trained on financial texts, aims to better capture contextual sentiment in financial disclosures.
