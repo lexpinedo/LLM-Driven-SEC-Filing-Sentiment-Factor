@@ -16,7 +16,7 @@ Traditional sentiment models rely on generic lexicons, which often misclassify f
 FinBERT, trained on financial texts, aims to better capture contextual sentiment in financial disclosures.
 
 ## Define a directional signal
-Sentiment signal
+### Sentiment signal
 
 For each 10-K document:
 
