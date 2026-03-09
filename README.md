@@ -75,9 +75,9 @@ Sample aligned with filings and 21-day forward return window
 
 3. Generate sentiment scores using:
 
-- VADER
+    - VADER
 
-- FinBERT
+    - FinBERT
 
 4. Construct ensemble sentiment signal
 
@@ -105,8 +105,6 @@ The FinBERT-based sentiment signal produced stronger and more stable out-of-samp
 
 - Returns measured at 21-day horizon
 
-- No portfolio construction or transaction cost modeling
-
 - Small universe limits cross-sectional breadth
 
 ## Extensions
@@ -115,8 +113,5 @@ The FinBERT-based sentiment signal produced stronger and more stable out-of-samp
 
 - Incorporate earnings call transcripts
 
-- Build portfolio construction framework
 
-- Test multi-horizon prediction windows
 
-- Explore transformer embeddings for feature generation
