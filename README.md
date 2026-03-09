@@ -41,11 +41,11 @@ Sentiment signals are tested for their ability to predict:
 - Cross-sectional predictive ranking
 
 ## Data Processing
-Universe
+### Universe
 
-20 large-cap U.S. equities
+several large-cap U.S. equities
 
-Source
+### Source
 
 - SEC EDGAR – 10-K filings
 
@@ -55,11 +55,11 @@ Source
 
     - Risk Factors
 
-Dates
+### Dates
 
 Sample aligned with filings and 21-day forward return window
 
-Cleaning
+### Cleaning
 
 - Parsed and extracted text from filings
 
