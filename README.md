@@ -13,7 +13,7 @@ NLP sentiment models can convert this narrative text into quantitative signals t
 Domain-specific language models
 
 Traditional sentiment models rely on generic lexicons, which often misclassify financial terminology.
-FinBERT, trained on financial corpora, aims to better capture contextual sentiment in financial disclosures.
+FinBERT, trained on financial texts, aims to better capture contextual sentiment in financial disclosures.
 
 ## Define a directional signal
 Sentiment signal
