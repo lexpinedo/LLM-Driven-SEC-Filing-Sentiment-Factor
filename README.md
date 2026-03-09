@@ -34,11 +34,11 @@ Predictive signal evaluation
 
 Sentiment signals are tested for their ability to predict:
 
-Return magnitude
+- Return magnitude
 
-Return direction
+- Return direction
 
-Cross-sectional predictive ranking
+- Cross-sectional predictive ranking
 
 ## Data Processing
 Universe
@@ -47,13 +47,13 @@ Universe
 
 Source
 
-SEC EDGAR – 10-K filings
+- SEC EDGAR – 10-K filings
 
-Extracted sections:
+- Extracted sections:
 
-Management Discussion & Analysis (MD&A)
+    - Management Discussion & Analysis (MD&A)
 
-Risk Factors
+    - Risk Factors
 
 Dates
 
@@ -61,39 +61,39 @@ Sample aligned with filings and 21-day forward return window
 
 Cleaning
 
-Parsed and extracted text from filings
+- Parsed and extracted text from filings
 
-Removed formatting artifacts
+- Removed formatting artifacts
 
-Tokenized documents for NLP model input
+- Tokenized documents for NLP model input
 
 ## Implementation process
 
-Scrape 10-K filings from SEC EDGAR
+1. Scrape 10-K filings from SEC EDGAR
 
-Extract MD&A and Risk Factors sections
+2. Extract MD&A and Risk Factors sections
 
-Generate sentiment scores using:
+3. Generate sentiment scores using:
 
-VADER
+- VADER
 
-FinBERT
+- FinBERT
 
-Construct ensemble sentiment signal
+4. Construct ensemble sentiment signal
 
-Align filings with 21-day forward returns
+5. Align filings with 21-day forward returns
 
-Split dataset using 70/30 time-based train-test split
+6. Split dataset using 70/30 time-based train-test split
 
-Evaluate predictive power using:
+7. Evaluate predictive power using:
 
-Linear regression (return estimation)
+- Linear regression (return estimation)
 
-Logistic regression (direction classification)
+- Logistic regression (direction classification)
 
-Cross-sectional rank correlation (Information Coefficient proxy)
+8. Cross-sectional rank correlation (Information Coefficient proxy)
 
-Run horse-race regression comparing FinBERT vs VADER signals
+9. Run horse-race regression comparing FinBERT vs VADER signals
 
 ## Results
 
