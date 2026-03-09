@@ -1,4 +1,4 @@
-# LLM-Driven-SEC-Filing-Sentiment-Factor
+# LLM Driven SEC-Filing Sentiment Factor Pipeline
 
 ## Goal
 
